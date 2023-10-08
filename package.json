@@ -1,0 +1,23 @@
+{
+  "name": "modalityproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emwhitney/modalityproject.git"
+  },
+  "author": "Em Whitney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emwhitney/modalityproject/issues"
+  },
+  "homepage": "https://github.com/emwhitney/modalityproject#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
