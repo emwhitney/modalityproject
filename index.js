@@ -1,10 +1,10 @@
-import React from "react";
-import reactDom from "react-dom";
-import App from "./src/App";
+import React from 'react'
+import  { createRoot }  from 'react-dom/client';
+import App from './src/App.js'
+const pool = require("./db");
 
-const root = createRoot(document.getElementById("root"));
-root.render(
-  <React>
-    <App />
-  </React>
-);
+
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App/>);

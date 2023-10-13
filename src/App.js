@@ -1,7 +1,11 @@
 import React from "react";
 
-const App = () => {
-  return <h1>modalities project</h1>;
-};
+const App = () =>{
+    return (
+        <h1>
+            Modalities app
+        </h1>
+    )
+}
 
-export default App;
+export default App
