@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server .",
-    "build": "Webpack ."
+    "build": "webpack ."
   },
   "author": "",
   "license": "ISC",
@@ -23,12 +23,15 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^27.4.2",
+    "html-webpack-plugin": "^5.5.3",
     "path": "^0.12.7",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "openai": "^4.12.1",
+    "pg": "^8.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
